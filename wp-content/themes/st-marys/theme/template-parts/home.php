@@ -40,6 +40,11 @@ get_header();
 		}
 	}
 
+	#animated-paragraph span {
+		padding-left: 2.5px;
+		padding-right: 2.5px;
+	}
+
 </style>
 
 <main id="main" class="overflow-x-hidden">
@@ -70,8 +75,10 @@ get_header();
 
 				<!-- Paragraph Animation -->
 				<p id="animated-paragraph" class="text-white text-base lg:text-xl lg:w-[70%]">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur obcaecati vel repudiandae dicta  tenetur veniam nemo nihil. Maiores fugiat atque nulla, alias magnam fuga quidem nihil hic eos eius?
+					We pray together thus we serve one another, it is faith, hope and charity that unites us in christ. <br>
+					United in christ, serving with faith, hope and charity
 				</p>
+
 			</div>
 		</section>
 

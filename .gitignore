@@ -1,36 +1,7 @@
-# Ignore WordPress core
-/wp-admin/
-/wp-includes/
-
-# Ignore uploads
-/wp-content/uploads/
-
 # Ignore node_modules
 /wp-content/themes/*/node_modules/
 /wp-content/plugins/*/node_modules/
-
-# Ignore temp/backup files
-/wp-content/themes/*/node_modules_backup/
 /wp-content/plugins/*/node_modules_backup/
+/wp-content/themes/*/node_modules_backup/
 
-# Ignore build directories
-/wp-content/themes/*/dist/
-/wp-content/themes/*/build/
 
-# Ignore IDE/editor files
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
-
-# Ignore OS generated files
-.DS_Store
-Thumbs.db
-
-# Ignore log files
-*.log
-*.cache
-
-# Ignore composer vendor directory
-/vendor/
-composer.lock
